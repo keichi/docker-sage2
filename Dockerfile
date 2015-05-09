@@ -10,7 +10,7 @@ RUN \
     wget https://bitbucket.org/sage2/sage2/downloads/sage2-2014-11-19-beta.zip && \
     unzip sage2-2014-11-19-beta.zip && \
     rm -f sage2-2014-11-19-beta.zip && \
-    mv sage2-2014-11-19 sage && \
+    mv sage2-2014-11-19 sage2 && \
     cd sage2 && \
     npm install && \
     cd keys && \
